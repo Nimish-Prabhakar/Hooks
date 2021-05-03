@@ -13,7 +13,6 @@ function UseEffectExample() {
   return (
     <div>
       <button onClick={() => setCounter(counter + 1)}>Click Me</button>
-
       <div style={{ margin: 20 }}>{counter}</div>
     </div>
   );

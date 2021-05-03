@@ -1,9 +1,9 @@
-import APICall from './hooks/useState/APICall';
+import UseEffectExample from './hooks/useEffect/useEffectExample';
 
 function App() {
   return (
     <div style={{ margin: 20 }}>
-      <APICall />
+      <UseEffectExample />
     </div>
   );
 }

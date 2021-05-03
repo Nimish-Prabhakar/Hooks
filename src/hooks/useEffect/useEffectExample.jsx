@@ -8,7 +8,7 @@ function UseEffectExample() {
     return () => {
       console.log(`previous value of  counter ${counter}`);
     };
-  });
+  }, [counter]);
 
   return (
     <div>
